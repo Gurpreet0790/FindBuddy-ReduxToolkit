@@ -4,7 +4,7 @@ import createSagaMiddleware from 'redux-saga';
 import watcherSaga from './rootSaga';
 import {persistReducer} from 'redux-persist';
 import {allReducer} from './rootReducer';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-community/async-storage';
 
 const sagaMiddleware = createSagaMiddleware();
 
